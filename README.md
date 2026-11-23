@@ -1,4 +1,4 @@
-# Análise de Vendas e Margem — Power BI e ETL
+# Relatório Comercial: Vendas, Faturamento e Margem (Power BI & Sheets)
 
 Projeto de análise de dados desenvolvido com Google Sheets e Power BI para avaliar vendas e faturamento de uma empresa de bicicletas com atuação internacional (2013 a 2016).
 A partir da demanda da área comercial, fiz toda a limpeza e validação de quatro planilhas brutas e criei um dashboard com duas visões: uma para o time de vendas acompanhar clientes, países e setores no dia a dia, e outra para a diretoria avaliar resultados mensais, anuais e definir estratégias.
@@ -13,14 +13,13 @@ A partir da demanda da área comercial, fiz toda a limpeza e validação de quat
 
 > Visão geral para acompanhamento da diretoria: receita total, lucro, margem, evolução mês a mês e comparação entre anos e segmentos.
 
-![Página Executiva](<img width="1600" height="830" alt="WhatsApp Image 2026-11-06 at 21 58 02" src="https://github.com/user-attachments/assets/c03098d0-96af-472b-8343-d7711ac62ef4" />
-)
+<img width="1600" height="829" alt="WhatsApp Image 2026-11-06 at 21 37 18" src="https://github.com/user-attachments/assets/782fec46-54b5-4a46-8f30-4e5681d867ce" />
+
 
 ### Página 2 — Operacional (Time de Vendas)
 > Detalhamento por país e produto, impacto dos descontos na margem e filtros para consulta diária da equipe comercial.
 
-![Página Operacional](<img width="1600" height="833" alt="WhatsApp Image 2026-11-06 at 21 36 56" src="https://github.com/user-attachments/assets/522cb9bf-ff57-4eb9-aa88-a58974709e49" />
-)
+<img width="1600" height="833" alt="WhatsApp Image 2026-11-06 at 21 36 56" src="https://github.com/user-attachments/assets/8d014f4a-d905-46a4-8959-ff65a51a39d9" />
 
 ---
 
@@ -36,8 +35,8 @@ O projeto partiu de quatro planilhas separadas (`Sales` e `Manufacturing`, dos p
 
 ## 2. Modelagem no Power Query e DAX
 
-![Power Query](<img width="1600" height="857" alt="WhatsApp Image 2026-11-06 at 21 37 38" src="https://github.com/user-attachments/assets/b2141491-35d9-4b31-8c05-2f3c0849688b" />
-)
+<img width="1600" height="857" alt="WhatsApp Image 2026-11-06 at 21 37 38" src="https://github.com/user-attachments/assets/6e9bc52c-f0db-425f-a798-f75df383a0e2" />
+
 
 * **Junção das bases:** Empilhamento dos períodos 2013-14 e 2015-16, criação de índice para cruzar `Sales` com `Manufacturing` sem erro e reconstrução das datas usando `#date([Year], [Month Number], 1)`.
 * **Modelo:** Tabela única `Vendas` (1.358 linhas × 16 colunas), deixando as consultas intermediárias desabilitadas para não pesar o arquivo.
