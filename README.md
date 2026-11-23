@@ -69,12 +69,15 @@ O projeto partiu de quatro planilhas separadas (`Sales` e `Manufacturing`, dos p
 
 
 
-### Arquivos do Repositório: 
 
-* [`case_analise_vendas.pbix`](case_analise_vendas.pbix) — Arquivo completo do Power BI
-* `dados/brutos/` — Planilhas originais (`Sales` e `Manufacturing` 2013-14 e 2015-16)
-* `dados/tratados/` — Planilha tratada e consolidada
-* `docs/` — Relatório técnico detalhado do projeto (PDF)
+### Arquivos do Repositório:
+
+- [`casedashboard.pbix`](casedashboard.pbix) — Arquivo completo do Power BI
+- [`case_tratado.xlsx`](case_tratado.xlsx) — Planilha tratada e consolidada
+- [`case_relatorio.pdf`](case_relatorio.pdf) — Relatório técnico detalhado do projeto (PDF)
+- `Base_de_dados_2013_2014_-_Sales.xlsx` e `Base_de_dados_2013_2014_-_Manufacturing.xlsx` — Bases originais do período 2013–2014
+- `Base_de_dados_2015_2016_-_Sales.xlsx` e `Base_de_dados_2015_2016_-_Manufacturing.xlsx` — Bases originais do período 2015–2016
+
 
 
 
@@ -82,7 +85,9 @@ O projeto partiu de quatro planilhas separadas (`Sales` e `Manufacturing`, dos p
 
 ---
 
+
 Autor: Beca Guimas
+
 
 Me encontre no [LinkedIn](https://www.linkedin.com/in/becaguimas). 
 Ou pelo e-mail: barbosasguimaraes@gmail.com | guimasbeca@gmail.com 
